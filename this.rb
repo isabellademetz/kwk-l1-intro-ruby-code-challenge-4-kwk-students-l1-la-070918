@@ -7,15 +7,15 @@ def least_coins
     quarters += 1
     cents -= 25
     
-    elsif cents >=10
+    elsif 10<=cents<25
     dimes += 1
     cents -= 10
     
-    elsif cents >=5
+    elsif 5<=cents<10
     nickels += 1
     cents -= 5
     
-     else cents >=1
+     else 1<=cents<5
     pennies += 1
     cents -=1
     puts coin
