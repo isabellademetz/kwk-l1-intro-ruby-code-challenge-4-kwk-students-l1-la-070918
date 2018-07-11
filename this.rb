@@ -12,6 +12,11 @@ def least_coins
     dimes += 1
     elsif cents >=5
     nickels += 1
+     elsif cents >=1
+    pennies += 1
+    puts coin
+    least_coins
+  end
   
      
     
