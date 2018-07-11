@@ -6,5 +6,5 @@ def least_coins(cents)
 "dimes" = .10
 "nickels" = .05
 "pennies" = .01
-while amount 
+while amount > .25
 end
