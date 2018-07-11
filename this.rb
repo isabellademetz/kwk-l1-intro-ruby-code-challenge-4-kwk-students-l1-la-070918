@@ -21,7 +21,7 @@ nickels = cents/5
     pennies += 1
     cents -=1
   end
-    puts coin
+
     least_coins(29)
   end
 
