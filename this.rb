@@ -1,6 +1,6 @@
 def least_coins(cents)
   coin = {
-:quarters  => 0
+:quarters => 0
 :dimes => 0
 :nickels => 0 
 :pennies => 0
