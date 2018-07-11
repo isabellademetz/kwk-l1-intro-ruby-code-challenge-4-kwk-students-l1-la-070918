@@ -8,17 +8,17 @@ def least_coins(cents)
   amount -= 25
 
   
-    while amount > 10
+    while 10 < amount < 25
   :dimes +=1
   amount -= 10
 
   
-    while amount > 0.5
+    while 5 < amount < 10
   :nickels +=1
   amount -= 0.5
 
   
-  while amount > 0.1
+  while 1 < amount < 5
   :pennies +=1
   amount -= 0.1
 
