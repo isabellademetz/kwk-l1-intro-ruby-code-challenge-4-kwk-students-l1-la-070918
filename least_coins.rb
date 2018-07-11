@@ -18,8 +18,10 @@ def least_coins(cents)
   while amount > 0.1
   :pennies +=1
   amount -= 0.1
-end
-end
   puts coin
+end
+end
+end
+ 
   
   
