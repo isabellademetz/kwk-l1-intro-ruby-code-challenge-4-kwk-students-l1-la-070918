@@ -7,9 +7,11 @@ def least_coins
   pennies = cents/1
   
   if cents >= 25
-    :quarters += 1
+    quarters += 1
     elsif cents >=10
     dimes += 1
+    elsif cents >=5
+    nickels += 1
   
      
     
