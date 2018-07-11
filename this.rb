@@ -1,10 +1,10 @@
 def least_coins
     cents = 100
   coin = {quarters => 0, dimes => 0, nickels => 0, pennies => 0}
-  quarters = cents/25
-  dimes = cents/10
-  nickels = cents/5
-  pennies = cents/1
+  quarters = 25
+  dimes = 10
+  nickels = 5
+  pennies = 1
   
   if cents >= 25
     quarters += 1
