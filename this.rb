@@ -1,5 +1,10 @@
 def least_coins(cents)
-  coin = {quarters => 0, dimes => 0, nickels => 0, pennies => 0}
+  coin = {
+:quarters  => 0
+:dimes => 0
+:nickels => 0 
+:pennies => 0
+}
   
   quarters = cents/25
   if quarters == 0
