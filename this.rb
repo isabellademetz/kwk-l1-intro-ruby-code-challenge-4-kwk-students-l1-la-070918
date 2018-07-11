@@ -1,5 +1,4 @@
-def least_coins
-    cents = 100
+def least_coins(cents)
   coin = {quarters => 0, dimes => 0, nickels => 0, pennies => 0}
   
   quarters = cents/25
@@ -23,7 +22,7 @@ nickels = cents/5
     cents -=1
   end
     puts coin
-    least_coins
+    least_coins(29)
   end
 
   
