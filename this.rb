@@ -4,28 +4,28 @@ def least_coins
   
   
   while cents >= 25
-    quarters += 1
+    quarters +1
     cents -= 25
   end
     
     while 10<=cents<25
-    dimes += 1
+    dimes + 1
     cents -= 10
   end
     
     while 5<=cents<10
-    nickels += 1
+    nickels + 1
     cents -= 5
   end
     
      while 1<=cents<5
-    pennies += 1
+    pennies + 1
     cents -=1
   end
     puts coin
     least_coins
   end
-end
+
   
      
     
