@@ -6,23 +6,25 @@ def least_coins(cents)
   while amount > 25
   :quarter +=1
   amount -= 25
+end
   
     while amount > 10
   :dime +=1
   amount -= 10
+end
   
     while amount > 0.5
   :nickel +=1
   amount -= 0.5
+end
   
   while amount > 0.1
   :pennies +=1
   amount -= 0.1
+end 
   puts coin
-end
-end
-end
-end
+  
+
  
   
   
