@@ -20,9 +20,9 @@ nickels = cents/5
     else pennies > 1
     pennies += 1
     cents -=1
-  
-    least_coins(29)
   end
+    least_coins(29)
+
 
   
      
