@@ -4,17 +4,17 @@ def least_coins(cents)
   amount = 100
   coin = {:quarters => 0, :dimes => 0, :nickels => 0, :pennies => 0}
   while amount > 25
-  :quarter +=1
+  :quarters +=1
   amount -= 25
 end
   
     while amount > 10
-  :dime +=1
+  :dimes +=1
   amount -= 10
 end
   
     while amount > 0.5
-  :nickel +=1
+  :nickels +=1
   amount -= 0.5
 end
   
@@ -24,7 +24,3 @@ end
 end 
   puts coin
   
-
- 
-  
-end
